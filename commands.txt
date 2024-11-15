@@ -4,3 +4,15 @@ git config --global user.email ""
 
 // List the configuration details
 git config --global --list
+
+git init // Initializes a empty git repository
+git status // Check for untracked files or the status of the files
+
+git add <file> // Add file to the staging area
+git rm --cached <file> // Unstage file
+
+git log // To check for current commits
+git commit -m "<message>" // Push file to commit stage along with a message
+
+log command will provide us a 40-digit hexadecimal number which helps in handling 
+the integrity of the file
