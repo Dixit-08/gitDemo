@@ -16,3 +16,5 @@ git commit -m "<message>" // Push file to commit stage along with a message
 
 log command will provide us a 40-digit hexadecimal number which helps in handling 
 the integrity of the file
+
+git diff // Checks for what new changes were made to the file which is unstaged
