@@ -1,0 +1,6 @@
+// Set global configurations
+git config --global user.name ""
+git config --global user.email ""
+
+// List the configuration details
+git config --global --list
